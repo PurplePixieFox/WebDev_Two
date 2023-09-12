@@ -1,0 +1,129 @@
+:root {
+    --color1:rgb(26, 26, 26);
+    --color2:rgb(16, 16, 16);
+    --bordercolor:rgb(42, 42, 42);
+    --text:rgb(198, 102, 217);
+}
+
+body {
+    font-family: 'Sono', sans-serif;
+    margin: 100px;
+    background-color: var(--color1);
+}
+
+.content {
+    background-color: var(--color2);
+    padding: 20px;
+    border-radius: 15px;
+    border: solid var(--bordercolor) 1px;
+    width: 980px;
+    margin: auto;
+}
+
+.content .head2 {
+    margin-left: 10px;
+    color: var(--text);
+}
+
+.content .Heading > h1 {
+    text-align: center;
+    font-size: 60px;
+    color: var(--text);
+}
+
+.Heading p {
+    margin-left: 10px;
+    color: var(--text);
+}
+
+.dropdown {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.content .dropdown select {
+    background-color: var(--color1);
+    color: var(--text);
+    border-radius: 15px;
+    border: var(--bordercolor) solid 1px;
+    font-size: 20px;
+}
+
+.cartoon-containers {
+    display: flex;
+    gap: 3px;
+    flex-wrap: wrap;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    color: var(--text);
+}
+
+.item {
+    background-color:var(--color1);
+    border-radius: 15px;
+    border: var(--bordercolor) solid 1px;
+    padding: 5px;
+    text-align: center;
+    width: 180px;
+    height: 350px;
+}
+
+.item:hover {
+    scale: 1.1;
+}
+
+.marquee {
+    background-color: var(--color2);
+    border-radius: 15px;
+    border: var(--bordercolor) solid 1px;
+    width: 980px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+    color: var(--text);
+}
+
+.Video {
+    margin-top: 25px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 25px;
+    background-color: var(--color1);
+    border-radius: 15px;
+    border: var(--bordercolor) solid 1px;
+    text-align: center;
+}
+
+.Textbox {
+    background-color: var(--color1);
+    border-radius: 15px;
+    border: var(--bordercolor) solid 1px;
+}
+
+.Textbox p {
+    color: var(--text);
+    margin-left: 10px;
+}
+
+.Textbox input {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 10px;
+    background-color: var(--color2);
+    color: var(--text);
+    border-radius: 15px;
+    border: var(--bordercolor) solid 1px;
+    font-size: 18px;
+}
+
+.Textbox .btn {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 10px;
+    background-color: var(--color2);
+    color: var(--text);
+    border-radius: 15px;
+    border: var(--bordercolor) solid 1px;
+    font-size: 20px;
+}
